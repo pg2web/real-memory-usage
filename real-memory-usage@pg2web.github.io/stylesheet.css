@@ -1,0 +1,30 @@
+/* width, height and border-radius are set from code */
+.rmu-bar { background-color: rgba(255, 255, 255, 0.08); }
+
+.rmu-apps   { background-color: #e66100; }
+.rmu-shared { background-color: #c64600; }
+.rmu-kernel { background-color: #a51d2d; }
+.rmu-cache  { background-color: #62a0ea; }
+.rmu-free   { background-color: #57e389; }
+
+.rmu-swatch {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    margin-right: 8px;
+}
+
+.rmu-row-name { min-width: 190px; }
+.rmu-row-value {
+    font-family: monospace;
+    min-width: 100px;
+    text-align: right;
+}
+.rmu-row-pct {
+    font-family: monospace;
+    min-width: 60px;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.6);
+}
+.rmu-strong { font-weight: bold; }
+.rmu-header { font-weight: bold; padding-bottom: 4px; }

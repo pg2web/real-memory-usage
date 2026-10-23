@@ -1,0 +1,9 @@
+{
+  "uuid": "real-memory-usage@pg2web.github.io",
+  "name": "Real Memory Usage",
+  "description": "Shows the memory that is really available (MemAvailable, as in `free`) in the top bar with a mini bar graph. The dropdown splits memory into apps, shared/tmpfs, kernel, reclaimable cache and free. Right click opens the settings.",
+  "shell-version": ["48", "49", "50"],
+  "settings-schema": "org.gnome.shell.extensions.real-memory-usage",
+  "url": "https://github.com/pg2web/real-memory-usage",
+  "version-name": "1.0.0"
+}

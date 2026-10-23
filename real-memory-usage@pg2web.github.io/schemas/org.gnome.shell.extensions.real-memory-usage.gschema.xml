@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.real-memory-usage"
+          path="/org/gnome/shell/extensions/real-memory-usage/">
+    <key name="refresh-seconds" type="i">
+      <range min="1" max="60"/>
+      <default>2</default>
+      <summary>Refresh interval in seconds</summary>
+    </key>
+    <key name="warn-percent" type="i">
+      <range min="1" max="100"/>
+      <default>25</default>
+      <summary>Warning threshold: available memory below this percent of total</summary>
+    </key>
+    <key name="crit-percent" type="i">
+      <range min="1" max="100"/>
+      <default>10</default>
+      <summary>Critical threshold: available memory below this percent of total</summary>
+    </key>
+    <key name="show-text" type="b">
+      <default>true</default>
+      <summary>Show the available-memory text in the top bar</summary>
+    </key>
+    <key name="show-bar" type="b">
+      <default>true</default>
+      <summary>Show the mini memory bar in the top bar</summary>
+    </key>
+    <key name="bar-position" type="s">
+      <choices>
+        <choice value="before"/>
+        <choice value="after"/>
+      </choices>
+      <default>'before'</default>
+      <summary>Place the mini bar before or after the text</summary>
+    </key>
+    <key name="bar-width" type="i">
+      <range min="10" max="300"/>
+      <default>60</default>
+      <summary>Mini bar width in pixels</summary>
+    </key>
+    <key name="bar-height" type="i">
+      <range min="2" max="24"/>
+      <default>8</default>
+      <summary>Mini bar height in pixels</summary>
+    </key>
+    <key name="color-ok" type="s">
+      <default>'#33d17a'</default>
+      <summary>Top bar colour when plenty of memory is available</summary>
+    </key>
+    <key name="color-warn" type="s">
+      <default>'#f5c211'</default>
+      <summary>Top bar colour at the warning threshold</summary>
+    </key>
+    <key name="color-crit" type="s">
+      <default>'#ff5555'</default>
+      <summary>Top bar colour at the critical threshold</summary>
+    </key>
+  </schema>
+</schemalist>
